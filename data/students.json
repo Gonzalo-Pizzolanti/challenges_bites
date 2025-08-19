@@ -1,0 +1,31 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Bob Johnson",
+      "coursesTaken": [
+        "Math",
+        "English",
+        "Art"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Alice Smith",
+      "coursesTaken": [
+        "History",
+        "English",
+        "Math"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Charlie Lee",
+      "coursesTaken": [
+        "Biology",
+        "Math",
+        "Computer Science"
+      ]
+    }
+  ]
+}

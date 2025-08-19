@@ -1,0 +1,77 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Kevin Negro",
+      "coursesTaken": [
+        "Math",
+        "Physics",
+        "Philosophy",
+        "Economics"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sergio Cubanslayer",
+      "coursesTaken": [
+        "History",
+        "Geography"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gines Cuevas",
+      "coursesTaken": [
+        "Biology",
+        "Chemistry",
+        "Art",
+        "English"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Jack Ichan",
+      "coursesTaken": [
+        "Computer Science",
+        "Math",
+        "Economics"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Alejandro Pucho",
+      "coursesTaken": [
+        "English",
+        "Sociology",
+        "Drama"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Mateo Rivas",
+      "coursesTaken": [
+        "Math",
+        "Computer Science",
+        "Robotics"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Elena Cruz",
+      "coursesTaken": [
+        "Psychology",
+        "Philosophy",
+        "Literature"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Daniel Ortiz",
+      "coursesTaken": [
+        "Physics",
+        "Engineering",
+        "English"
+      ]
+    }
+  ]
+}
