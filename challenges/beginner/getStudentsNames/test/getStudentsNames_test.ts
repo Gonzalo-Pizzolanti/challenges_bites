@@ -1,27 +1,27 @@
 import { assertEquals } from "@std/assert";
 
-import { Solution } from "../solutions/index.ts";
+import { getStudentsNames } from "../src/getStudentsNames.ts";
 import { getStudents } from "../../../../services/getStudents.ts";
 
 
 
 Deno.test(function studentsNamesTest() {
   assertEquals(
-    Solution.getStudentsNames(getStudents()),
+    getStudentsNames(getStudents()),
     ["Alice Smith", "Bob Johnson", "Charlie Lee"],
   );
 });
 
 Deno.test(function emptyStudentsList() {
   assertEquals(
-    Solution.getStudentsNames([]),
+    getStudentsNames([]),
     [],
   );
 });
 
 Deno.test(function emptyStudentsList() {
   assertEquals(
-    Solution.getStudentsNames([
+    getStudentsNames([
       {
         id: 1,
         name: "Titi",

@@ -1,7 +1,7 @@
 import { assertArrayIncludes, assertEquals } from "@std/assert";
 
-import { getMostTakenCourse } from "../solution/index.ts";
 import { getStudents, Student } from "../../../../services/getStudents.ts";
+import { getMostTakenCourse } from "../src/getMostTakenCourse.ts";
 
 Deno.test(function justOneCourse() {
     assertEquals(
